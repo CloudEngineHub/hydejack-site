@@ -19,9 +19,9 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     execjs (2.9.1)
-    ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0)
     forwardable-extended (2.6.0)
-    google-protobuf (4.27.2-arm64-darwin)
+    google-protobuf (4.27.2)
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
@@ -97,7 +97,7 @@ GEM
       strscan
     rouge (4.3.0)
     safe_yaml (1.0.5)
-    sass-embedded (1.77.8-arm64-darwin)
+    sass-embedded (1.77.8)
       google-protobuf (~> 4.26)
     strscan (3.1.0)
     terminal-table (3.0.2)
@@ -106,7 +106,7 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  arm64-darwin-22
+  ruby
 
 DEPENDENCIES
   duktape
